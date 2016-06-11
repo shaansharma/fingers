@@ -7,15 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2206DB621A8BF27200A69065 /* autoLayoutTest.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2206DB601A8BF27200A69065 /* autoLayoutTest.storyboard */; };
 		2226B3C21A48CF32003A0C14 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2226B3C11A48CF32003A0C14 /* AppDelegate.swift */; };
 		2226B3C41A48CF32003A0C14 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2226B3C31A48CF32003A0C14 /* ViewController.swift */; };
 		2226B3C71A48CF32003A0C14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2226B3C51A48CF32003A0C14 /* Main.storyboard */; };
 		2226B3C91A48CF32003A0C14 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2226B3C81A48CF32003A0C14 /* Images.xcassets */; };
 		2226B3CC1A48CF32003A0C14 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2226B3CA1A48CF32003A0C14 /* LaunchScreen.xib */; };
 		2226B3D81A48CF32003A0C14 /* howManyFingersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2226B3D71A48CF32003A0C14 /* howManyFingersTests.swift */; };
-		2226B3E21A49DA1B003A0C14 /* iPhone5Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2226B3E11A49DA1B003A0C14 /* iPhone5Storyboard.storyboard */; };
-		2226B3E41A49DB0D003A0C14 /* iPhone5View.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2226B3E31A49DB0D003A0C14 /* iPhone5View.xib */; };
+		224399F11ACB73CB00C9AE1B /* Fingers WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 224399F01ACB73CB00C9AE1B /* Fingers WatchKit App.app */; };
 		2292A4461A49EF7900945B59 /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2292A4451A49EF7900945B59 /* GameKit.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,10 +25,16 @@
 			remoteGlobalIDString = 2226B3BB1A48CF32003A0C14;
 			remoteInfo = howManyFingers;
 		};
+		224399F21ACB73CB00C9AE1B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2226B3B41A48CF32003A0C14 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 224399EF1ACB73CB00C9AE1B;
+			remoteInfo = "Fingers WatchKit App";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2206DB611A8BF27200A69065 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/autoLayoutTest.storyboard; sourceTree = "<group>"; };
 		2226B3BC1A48CF32003A0C14 /* Fingers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fingers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2226B3C01A48CF32003A0C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2226B3C11A48CF32003A0C14 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -41,8 +45,8 @@
 		2226B3D11A48CF32003A0C14 /* FingersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FingersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2226B3D61A48CF32003A0C14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2226B3D71A48CF32003A0C14 /* howManyFingersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = howManyFingersTests.swift; sourceTree = "<group>"; };
-		2226B3E11A49DA1B003A0C14 /* iPhone5Storyboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = iPhone5Storyboard.storyboard; path = ../iPhone5Storyboard.storyboard; sourceTree = "<group>"; };
-		2226B3E31A49DB0D003A0C14 /* iPhone5View.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = iPhone5View.xib; sourceTree = "<group>"; };
+		224399E31ACB73CB00C9AE1B /* Fingers WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Fingers WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		224399F01ACB73CB00C9AE1B /* Fingers WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fingers WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2292A4451A49EF7900945B59 /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -56,6 +60,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2226B3CE1A48CF32003A0C14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224399E01ACB73CB00C9AE1B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -80,6 +91,8 @@
 			children = (
 				2226B3BC1A48CF32003A0C14 /* Fingers.app */,
 				2226B3D11A48CF32003A0C14 /* FingersTests.xctest */,
+				224399E31ACB73CB00C9AE1B /* Fingers WatchKit Extension.appex */,
+				224399F01ACB73CB00C9AE1B /* Fingers WatchKit App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -87,12 +100,9 @@
 		2226B3BE1A48CF32003A0C14 /* howManyFingers */ = {
 			isa = PBXGroup;
 			children = (
-				2226B3E11A49DA1B003A0C14 /* iPhone5Storyboard.storyboard */,
-				2226B3E31A49DB0D003A0C14 /* iPhone5View.xib */,
 				2226B3C11A48CF32003A0C14 /* AppDelegate.swift */,
 				2226B3C31A48CF32003A0C14 /* ViewController.swift */,
 				2226B3C51A48CF32003A0C14 /* Main.storyboard */,
-				2206DB601A8BF27200A69065 /* autoLayoutTest.storyboard */,
 				2226B3C81A48CF32003A0C14 /* Images.xcassets */,
 				2226B3CA1A48CF32003A0C14 /* LaunchScreen.xib */,
 				2226B3BF1A48CF32003A0C14 /* Supporting Files */,
@@ -163,6 +173,39 @@
 			productReference = 2226B3D11A48CF32003A0C14 /* FingersTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
+		224399E21ACB73CB00C9AE1B /* Fingers WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22439A041ACB73CC00C9AE1B /* Build configuration list for PBXNativeTarget "Fingers WatchKit Extension" */;
+			buildPhases = (
+				224399DF1ACB73CB00C9AE1B /* Sources */,
+				224399E01ACB73CB00C9AE1B /* Frameworks */,
+				224399E11ACB73CB00C9AE1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				224399F31ACB73CB00C9AE1B /* PBXTargetDependency */,
+			);
+			name = "Fingers WatchKit Extension";
+			productName = "Fingers WatchKit Extension";
+			productReference = 224399E31ACB73CB00C9AE1B /* Fingers WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		224399EF1ACB73CB00C9AE1B /* Fingers WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22439A031ACB73CC00C9AE1B /* Build configuration list for PBXNativeTarget "Fingers WatchKit App" */;
+			buildPhases = (
+				224399EE1ACB73CB00C9AE1B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fingers WatchKit App";
+			productName = "Fingers WatchKit App";
+			productReference = 224399F01ACB73CB00C9AE1B /* Fingers WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -185,6 +228,13 @@
 						CreatedOnToolsVersion = 6.1.1;
 						TestTargetID = 2226B3BB1A48CF32003A0C14;
 					};
+					224399E21ACB73CB00C9AE1B = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = BSC387BF98;
+					};
+					224399EF1ACB73CB00C9AE1B = {
+						CreatedOnToolsVersion = 6.2;
+					};
 				};
 			};
 			buildConfigurationList = 2226B3B71A48CF32003A0C14 /* Build configuration list for PBXProject "Fingers" */;
@@ -202,6 +252,8 @@
 			targets = (
 				2226B3BB1A48CF32003A0C14 /* Fingers */,
 				2226B3D01A48CF32003A0C14 /* FingersTests */,
+				224399E21ACB73CB00C9AE1B /* Fingers WatchKit Extension */,
+				224399EF1ACB73CB00C9AE1B /* Fingers WatchKit App */,
 			);
 		};
 /* End PBXProject section */
@@ -211,16 +263,28 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2226B3E21A49DA1B003A0C14 /* iPhone5Storyboard.storyboard in Resources */,
 				2226B3C71A48CF32003A0C14 /* Main.storyboard in Resources */,
 				2226B3CC1A48CF32003A0C14 /* LaunchScreen.xib in Resources */,
 				2226B3C91A48CF32003A0C14 /* Images.xcassets in Resources */,
-				2226B3E41A49DB0D003A0C14 /* iPhone5View.xib in Resources */,
-				2206DB621A8BF27200A69065 /* autoLayoutTest.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		2226B3CF1A48CF32003A0C14 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224399E11ACB73CB00C9AE1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				224399F11ACB73CB00C9AE1B /* Fingers WatchKit App.app in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		224399EE1ACB73CB00C9AE1B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -247,6 +311,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		224399DF1ACB73CB00C9AE1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -255,17 +326,14 @@
 			target = 2226B3BB1A48CF32003A0C14 /* Fingers */;
 			targetProxy = 2226B3D21A48CF32003A0C14 /* PBXContainerItemProxy */;
 		};
+		224399F31ACB73CB00C9AE1B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 224399EF1ACB73CB00C9AE1B /* Fingers WatchKit App */;
+			targetProxy = 224399F21ACB73CB00C9AE1B /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		2206DB601A8BF27200A69065 /* autoLayoutTest.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2206DB611A8BF27200A69065 /* Base */,
-			);
-			name = autoLayoutTest.storyboard;
-			sourceTree = "<group>";
-		};
 		2226B3C51A48CF32003A0C14 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -369,6 +437,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = howManyFingers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = Fingers;
@@ -384,6 +453,7 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = howManyFingers/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_NAME = Fingers;
@@ -426,6 +496,70 @@
 			};
 			name = Release;
 		};
+		224399FF1ACB73CC00C9AE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Fingers WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		22439A001ACB73CC00C9AE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				INFOPLIST_FILE = "Fingers WatchKit Extension/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		22439A011ACB73CC00C9AE1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = Fingers_WatchKit_Extension;
+				INFOPLIST_FILE = "Fingers WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		22439A021ACB73CC00C9AE1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COPY_PHASE_STRIP = NO;
+				IBSC_MODULE = Fingers_WatchKit_Extension;
+				INFOPLIST_FILE = "Fingers WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -452,6 +586,24 @@
 			buildConfigurations = (
 				2226B3DF1A48CF32003A0C14 /* Debug */,
 				2226B3E01A48CF32003A0C14 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22439A031ACB73CC00C9AE1B /* Build configuration list for PBXNativeTarget "Fingers WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22439A011ACB73CC00C9AE1B /* Debug */,
+				22439A021ACB73CC00C9AE1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22439A041ACB73CC00C9AE1B /* Build configuration list for PBXNativeTarget "Fingers WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				224399FF1ACB73CC00C9AE1B /* Debug */,
+				22439A001ACB73CC00C9AE1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

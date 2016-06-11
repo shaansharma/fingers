@@ -3,7 +3,7 @@
 //  howManyFingers
 //
 //  Created by Shaan Sharma on 2014-12-22.
-//  Copyright (c) 2014 Shaan Sharma. All rights reserved.
+//  Copyright (c) 2015 Shaan Sharma. All rights reserved.
 //
 
 import UIKit
